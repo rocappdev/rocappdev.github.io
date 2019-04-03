@@ -1,10 +1,10 @@
 ### Contacto
 
-Correo: [rocappdeveloper@gmail.com]
+LinkedIn: [Rocío Carrero Pérez](https://www.linkedin.com/in/rociocarrero/)
 
-LinkedIn [Rocío Carrero Pérez](https://www.linkedin.com/in/rociocarrero/)
+Correo: rocappdeveloper@gmail.com
 
-Github [RoCApp](https://github.com/RocioCarreroP)
+Github: [RoCApp](https://github.com/RocioCarreroP)
 
 
 ## Welcome to GitHub Pages
