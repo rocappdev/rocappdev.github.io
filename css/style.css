@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Melinda';
+  src: url('../resources/fonts/Melinda.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Basic';
+  src: url('../resources/fonts/eurof35.ttf') format('truetype');
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: Basic !important;
+  font-size: 24px !important;
+  color: #242424 !important;
+}
+
+footer{
+  margin-top: 50px !important;
+  text-align: center !important;
+}
+
+h1 {
+  text-align: center !important;
+  padding-top: 50px !important;
+  font-family: Melinda !important;
+  font-size: 70px !important;
+  margin: 0px !important;
+}
+
+h3 {
+  text-align: center !important;
+  font-size: 32px !important;
+  padding: 10px !important;
+  margin: 0px !important;
+}
+
+a {
+  color: #ff098f !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  word-wrap: break-word !important;
+}
+
+a:hover {
+  color: #b50064 !important;
+}
+
+.bubbles {
+  position: relative;
+}
+
+.bubble1 {
+  position: absolute !important;
+  z-index: -1 !important;
+}
+
+.bubble2 {
+  position: absolute !important;
+  z-index: -1 !important;
+  right: 0 !important;
+  top: 400px !important;
+  height: 750px !important;
+}
+
+.illustration img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.linkedin{
+  background-color: #fff0f8;
+}
+.github{
+  background-color: #f5f5ff;
+}
+.email{
+  background-color: #effef5;
+}
+
+.social-logo img {
+  width: 45px;
+  height: 45px;
+  margin: 20px !important;
+}
+
+.social {
+  border-radius: 30px;
+}
+
+.test {
+  width: 45px;
+  height: 45px;
+  margin: 20px !important;
+}
