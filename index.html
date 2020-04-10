@@ -20,7 +20,7 @@
 	<meta name="twitter:url" content="https://rociocarrerop.github.io/" />
 	<meta name="twitter:card" content="" />
   <meta name="author" content="Rocío Carrero Pérez" />
-  
+
 </head>
 <body>
   <div class="bubbles">
@@ -74,5 +74,30 @@
     </div>
   </div>
   <footer>Made with  💖 by Rocío Carrero Pérez - 2020</footer>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCGGoMwiYIA-Ag4S-VumnE4YyL4sg1vTaI",
+    authDomain: "rocappweb.firebaseapp.com",
+    databaseURL: "https://rocappweb.firebaseio.com",
+    projectId: "rocappweb",
+    storageBucket: "rocappweb.appspot.com",
+    messagingSenderId: "891530495263",
+    appId: "1:891530495263:web:d7dd3ad8d76c3ae40c5c2a",
+    measurementId: "G-TLXVHZYZHB"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
 </body>
 </html>
