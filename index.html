@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <title>Rocapp Developer</title>
@@ -10,18 +11,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="Rocapp Developer"/>
-	<meta property="og:image" content="resources/images/rocapp.jpg"/>
-	<meta property="og:url" content="https://rociocarrerop.github.io/"/>
-	<meta property="og:site_name" content="Rocapp Developer"/>
-	<meta property="og:description" content="Rocapp developer"/>
-	<meta name="twitter:title" content="Rocapp Developer" />
-	<meta name="twitter:image" content="resources/images/rocapp.jpg" />
-	<meta name="twitter:url" content="https://rociocarrerop.github.io/" />
-	<meta name="twitter:card" content="" />
+  <meta property="og:title" content="Rocapp Developer" />
+  <meta property="og:image" content="resources/images/rocapp.jpg" />
+  <meta property="og:url" content="https://rociocarrerop.github.io/" />
+  <meta property="og:site_name" content="Rocapp Developer" />
+  <meta property="og:description" content="Rocapp developer" />
+  <meta name="twitter:title" content="Rocapp Developer" />
+  <meta name="twitter:image" content="resources/images/rocapp.jpg" />
+  <meta name="twitter:url" content="https://rociocarrerop.github.io/" />
+  <meta name="twitter:card" content="" />
   <meta name="author" content="Rocío Carrero Pérez" />
 
 </head>
+
 <body>
   <div class="bubbles">
     <img src="resources/images/bubble1.png" alt="" class="bubble1">
@@ -29,9 +31,9 @@
 
     <div class="illustration">
       <a href="#" onclick="window.open('resources/CV_RocioCarrero.pdf', '_blank', 'fullscreen=yes'); return false;">
-      <!-- <a href="resources/CV_RocioCarrero.pdf" target="_blank"> -->
+        <!-- <a href="resources/CV_RocioCarrero.pdf" target="_blank"> -->
         <button type="button" name="button" class="floatting">
-          Curriculum
+          Download CV
         </button>
       </a>
       <span class="clear"></span>
@@ -40,9 +42,21 @@
     </div>
 
     <div class="container">
-      <div class="row">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-7">
+        <div class="p-3 text-center shadow social">
+          <div class="social-logo d-inline-block playstore text-center rounded-circle mx-auto my-auto">
+            <img class="mx-auto my-auto" src="resources/images/social/icon_playstore.png" alt="">
+          </div>
+          <h3>Find my work on Google Play Store!</h3>
+          <p></p>
+          <a href="https://play.google.com/store/apps/dev?id=8266693053120661040" target="_blank">RocappDev</a>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
         <div class="col-12 col-lg-4">
-          <div class="p-4 text-center shadow social">
+          <div class="p-3 text-center shadow social">
             <div class="social-logo d-inline-block linkedin text-center rounded-circle mx-auto my-auto">
               <img class="mx-auto my-auto" src="resources/images/social/icon_linkedin.png" alt="">
             </div>
@@ -52,17 +66,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-4">
-          <div class="p-4 text-center shadow social">
-            <div class="social-logo d-inline-block github text-center rounded-circle mx-auto my-auto">
-              <img class="mx-auto my-auto" src="resources/images/social/icon_github.png" alt="">
-            </div>
-            <h3>GitHub</h3>
-            <p></p>
-            <a href="https://github.com/RocioCarreroP" target="_blank">Github.com/RocioCarreroP</a>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="p-4 text-center shadow social">
+          <div class="p-3 text-center shadow social">
             <div class="social-logo d-inline-block email text-center rounded-circle mx-auto my-auto">
               <img class="mx-auto my-auto" src="resources/images/social/icon_mail.png" alt="">
             </div>
@@ -71,34 +75,44 @@
             <a>Rocappdeveloper@gmail.com</a>
           </div>
         </div>
+        <div class="col-12 col-lg-4">
+          <div class="p-3 text-center shadow social">
+            <div class="social-logo d-inline-block github text-center rounded-circle mx-auto my-auto">
+              <img class="mx-auto my-auto" src="resources/images/social/icon_github.png" alt="">
+            </div>
+            <h3>GitHub</h3>
+            <p></p>
+            <a href="https://github.com/RocioCarreroP" target="_blank">Github.com/RocioCarreroP</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <footer>Made with  💖 by Rocío Carrero Pérez - 2020</footer>
+  <footer>Made with 💖 by Rocío Carrero Pérez - 2020</footer>
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+  <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCGGoMwiYIA-Ag4S-VumnE4YyL4sg1vTaI",
-    authDomain: "rocappweb.firebaseapp.com",
-    databaseURL: "https://rocappweb.firebaseio.com",
-    projectId: "rocappweb",
-    storageBucket: "rocappweb.appspot.com",
-    messagingSenderId: "891530495263",
-    appId: "1:891530495263:web:d7dd3ad8d76c3ae40c5c2a",
-    measurementId: "G-TLXVHZYZHB"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-
-</script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCGGoMwiYIA-Ag4S-VumnE4YyL4sg1vTaI",
+      authDomain: "rocappweb.firebaseapp.com",
+      databaseURL: "https://rocappweb.firebaseio.com",
+      projectId: "rocappweb",
+      storageBucket: "rocappweb.appspot.com",
+      messagingSenderId: "891530495263",
+      appId: "1:891530495263:web:d7dd3ad8d76c3ae40c5c2a",
+      measurementId: "G-TLXVHZYZHB"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
+
 </html>

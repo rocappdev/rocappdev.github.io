@@ -2,21 +2,22 @@
   font-family: 'Melinda';
   src: url('../resources/fonts/Melinda.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Basic';
-  src: url('../resources/fonts/eurof35.ttf') format('truetype');
+  src: url('../resources/fonts/OpenSansLight.ttf') format('truetype');
 }
 
 html, body {
   margin: 0;
   height: 100%;
   font-family: Basic !important;
-  font-size: 24px !important;
+  font-size: 20px !important;
 }
 
-footer{
+footer {
   margin-top: 50px !important;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
   text-align: center !important;
 }
 
@@ -31,7 +32,7 @@ h1 {
 
 h3 {
   text-align: center !important;
-  font-size: 32px !important;
+  font-size: 28px !important;
   padding: 10px !important;
   margin: 0px !important;
 }
@@ -47,13 +48,13 @@ a:hover {
   color: #b50064 !important;
 }
 
-.clear{
-  clear: both;
+.clear {
+  clear: both !important;
 }
 
 .floatting {
   color: #ff098f;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   word-wrap: break-word;
   padding-left: 20px;
@@ -71,8 +72,8 @@ button:focus {
   outline: none !important;
 }
 
-button:hover{
-  background-color: #fff0f8;
+button:hover {
+  background-color: #fff0f8 !important;
 }
 
 .bubbles {
@@ -99,24 +100,30 @@ button:hover{
   margin-bottom: 30px;
 }
 
-.linkedin{
-  background-color: #fff0f8;
+.playstore {
+  background-color: #d9f2ff !important;
 }
-.github{
-  background-color: #f5f5ff;
+
+.linkedin {
+  background-color: #fff0f8 !important;
 }
-.email{
-  background-color: #effef5;
+
+.github {
+  background-color: #f5f5ff !important;
+}
+
+.email {
+  background-color: #effef5 !important;
 }
 
 .social-logo img {
-  width: 45px;
-  height: 45px;
+  width: 45px !important;
+  height: 45px !important;
   margin: 20px !important;
 }
 
 .social {
-  border-radius: 30px;
+  border-radius: 30px !important;
 }
 
 .test {
