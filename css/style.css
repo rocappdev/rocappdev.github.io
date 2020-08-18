@@ -8,6 +8,14 @@
   src: url('../resources/fonts/OpenSansLight.ttf') format('truetype');
 }
 
+:root {
+    --light-green-color:#e7f5ee;
+    --green-color:#7aa98f;
+    --yellow-color:#e5a800;
+    --orange-color:#ff996f;
+    --dark-color:#01240b;
+}
+
 html, body {
   margin: 0;
   height: 100%;
@@ -24,9 +32,9 @@ footer {
 h1 {
   text-align: center !important;
   font-family: Melinda !important;
-  font-size: 70px !important;
+  font-size: 65px !important;
   margin: 0px !important;
-  color: #01240b !important;
+  color: var(secondary-color) !important;
   clear: both !important;
 }
 
@@ -37,15 +45,21 @@ h3 {
   margin: 0px !important;
 }
 
+h4 {
+  text-align: center !important;
+  font-size: 20px !important;
+  margin-top: -5px !important;
+}
+
 a {
-  color: #ff098f !important;
+  color: var(--yellow-color) !important;
   text-decoration: none !important;
   font-weight: bold !important;
   word-wrap: break-word !important;
 }
 
 a:hover {
-  color: #b50064 !important;
+  color: #ad7f00 !important;
 }
 
 .clear {
@@ -53,7 +67,7 @@ a:hover {
 }
 
 .floatting {
-  color: #ff098f;
+  color: var(--yellow-color);
   font-size: 30px;
   font-weight: bold;
   word-wrap: break-word;
@@ -64,7 +78,7 @@ a:hover {
   margin-bottom: 0;
   margin-top: 30px;
   border-radius: 40px;
-  border: #ff098f solid 2px;
+  border: var(--yellow-color) solid 2px;
   background-color: #ffffff00;
 }
 
@@ -94,7 +108,9 @@ button:hover {
 }
 
 .illustration img {
+  height: 530px;
   display: block;
+  margin-top: -30px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -105,15 +121,15 @@ button:hover {
 }
 
 .linkedin {
-  background-color: #fff0f8 !important;
+  background-color: #e5a80020 !important;
 }
 
 .github {
-  background-color: #f5f5ff !important;
+  background-color: #ff996f20 !important;
 }
 
 .email {
-  background-color: #effef5 !important;
+  background-color: #7aa98f20 !important;
 }
 
 .social-logo img {
@@ -130,4 +146,14 @@ button:hover {
   width: 45px;
   height: 45px;
   margin: 20px !important;
+}
+
+.green {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--light-green-color);
+}
+
+.white {
+  background: #fff;
 }
