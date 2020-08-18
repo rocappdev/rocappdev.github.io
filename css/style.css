@@ -34,7 +34,7 @@ h1 {
   font-family: Melinda !important;
   font-size: 65px !important;
   margin: 0px !important;
-  color: var(secondary-color) !important;
+  color: var(--dark-color) !important;
   clear: both !important;
 }
 
@@ -87,7 +87,7 @@ button:focus {
 }
 
 button:hover {
-  background-color: #fff0f8 !important;
+  background-color: #fff1cc !important;
 }
 
 .bubbles {
