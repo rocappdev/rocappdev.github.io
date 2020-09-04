@@ -9,11 +9,11 @@
 }
 
 :root {
-    --light-green-color:#e7f5ee;
-    --green-color:#7aa98f;
-    --yellow-color:#e5a800;
-    --orange-color:#ff996f;
-    --dark-color:#01240b;
+  --light-green-color:#e7f5ee;
+  --green-color:#7aa98f;
+  --yellow-color:#e5a800;
+  --orange-color:#ff996f;
+  --dark-color:#01240b;
 }
 
 html, body {
@@ -24,7 +24,7 @@ html, body {
 }
 
 footer {
-  margin-top: 50px !important;
+  margin-top: 20px !important;
   margin-bottom: 20px !important;
   text-align: center !important;
 }
@@ -36,6 +36,13 @@ h1 {
   margin: 0px !important;
   color: var(--dark-color) !important;
   clear: both !important;
+}
+
+h2 {
+  text-align: center !important;
+  font-size: 38px !important;
+  padding: 10px !important;
+  margin: 0px !important;
 }
 
 h3 {
@@ -107,13 +114,24 @@ button:hover {
   height: 750px !important;
 }
 
+.bubble3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bubble4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .illustration img {
   height: 530px;
   display: block;
   margin-top: -30px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
 }
 
 .playstore {
@@ -156,4 +174,32 @@ button:hover {
 
 .white {
   background: #fff;
+}
+
+.work {
+  line-height: normal;
+  background-image: url(../resources/img/study_banner.png);
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+}
+.work a{
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  word-wrap: break-word !important;
+}
+.work a:hover {
+  color: #47594b !important;
+}
+
+.app {
+  border-radius: 30px;
+  background-color: #ffffff40;
+}
+
+.app img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px 30px 0px 0px;
 }
