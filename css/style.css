@@ -114,15 +114,17 @@ button:hover {
 }
 
 .bubble3 {
-  position: absolute;
-  left: 0;
-  top: 0;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  opacity: 0.15;
 }
 
 .bubble4 {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  position: absolute !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  opacity: 0.15;
 }
 
 .illustration img {
@@ -176,6 +178,7 @@ button:hover {
 }
 
 .work {
+  position: relative;
   line-height: normal;
   background-image: url(../img/study_banner.png);
   background-size: 100% 100%;
@@ -194,7 +197,7 @@ button:hover {
 
 .app {
   border-radius: 30px;
-  background-color: #ffffff60;
+  background-color: #b4cfc5;
 }
 
 .app img {
