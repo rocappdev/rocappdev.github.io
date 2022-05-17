@@ -9,11 +9,11 @@
 }
 
 :root {
-  --light-green-color:#e7f5ee;
-  --green-color:#7aa98f;
-  --yellow-color:#e5a800;
-  --orange-color:#ff996f;
-  --dark-color:#01240b;
+  --light-green-color: #e7f5ee;
+  --green-color: #7aa98f;
+  --yellow-color: #e5a800;
+  --orange-color: #ff996f;
+  --dark-color: #01240b;
 }
 
 html, body {
@@ -36,6 +36,7 @@ h1 {
   margin: 0px !important;
   color: var(--dark-color) !important;
   clear: both !important;
+  padding-top: 60px;
 }
 
 h2 {
@@ -185,12 +186,14 @@ button:hover {
   color: white;
   text-align: center;
 }
-.work a{
+
+.work a {
   color: #fff !important;
   text-decoration: none !important;
   font-weight: bold !important;
   word-wrap: break-word !important;
 }
+
 .work a:hover {
   color: #47594b !important;
 }
@@ -212,7 +215,7 @@ button:hover {
   display: block;
 }
 
-.colorblindimg{
+.colorblindimg {
   margin: auto;
   display: block;
   max-width: 60%;
@@ -224,12 +227,13 @@ button:hover {
   margin-right: 100px;
 }
 
-.colorblind a{
+.colorblind a {
   color: var(--dark-color) !important;
   text-decoration: none !important;
   font-weight: bold !important;
   word-wrap: break-word !important;
 }
+
 .colorblind a:hover {
   color: #7aa98f !important;
 }
